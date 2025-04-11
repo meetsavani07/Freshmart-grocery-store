@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Base responsive styles */
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply min-h-screen bg-gray-50;
+  }
+}
+
+/* Main layout wrapper */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content wrapper */
+.content-wrapper {
+  flex: 1 0 auto;
+  padding-bottom: 4rem; /* Space for footer */
+}
+
+/* Footer styles */
+.footer {
+  flex-shrink: 0;
+}
+
+/* Responsive container classes */
+@layer components {
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-spacing {
+    @apply py-8 md:py-12 lg:py-16;
+  }
+
+  .card-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+}
+
+/* Responsive text utilities */
+@layer utilities {
+  .text-responsive {
+    @apply text-base md:text-lg lg:text-xl;
+  }
+
+  .heading-responsive {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+  }
+
+  .subheading-responsive {
+    @apply text-lg md:text-xl lg:text-2xl font-semibold;
+  }
+}
+
+/* Mobile navigation adjustments */
+@media (max-width: 768px) {
+  .mobile-nav {
+    @apply fixed inset-0 bg-green-600 z-50 overflow-y-auto;
+    padding-top: 4rem;
+  }
+
+  .mobile-nav-link {
+    @apply block w-full text-white py-3 px-4 text-lg;
+  }
+}
+
+/* Card hover effects */
+.hover-card {
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+.hover-card:hover {
+  @apply transform scale-105;
+}
+
+/* Form elements */
+.input-field {
+  @apply w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-2 focus:ring-green-600 focus:border-transparent;
+}
+
+.button-primary {
+  @apply bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors;
+}
+
+/* Grid layouts */
+.auto-grid {
+  @apply grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Responsive images */
+.responsive-image {
+  @apply w-full h-auto object-cover;
+  aspect-ratio: 16/9;
+}
+
+/* Hero section adjustments */
+.hero-section {
+  @apply min-h-screen flex items-center justify-center;
+  padding-top: 4rem;
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    min-height: calc(100vh - 4rem);
+  }
+}
+
+/* Product card adjustments */
+.product-card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card-content {
+  @apply p-4 flex-grow;
+}
+
+/* Cart and wishlist responsive layouts */
+.cart-grid {
+  @apply grid grid-cols-1 lg:grid-cols-3 gap-8;
+}
+
+.cart-items {
+  @apply lg:col-span-2;
+}
+
+.cart-summary {
+  @apply lg:col-span-1;
+}
+
+/* Profile page layout */
+.profile-layout {
+  @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6;
+}
+
+.profile-sidebar {
+  @apply md:col-span-1;
+}
+
+.profile-content {
+  @apply md:col-span-2 lg:col-span-3;
+}
+
+/* Responsive table */
+.responsive-table {
+  @apply w-full;
+}
+
+@media (max-width: 640px) {
+  .responsive-table thead {
+    @apply hidden;
+  }
+
+  .responsive-table tr {
+    @apply block border-b;
+  }
+
+  .responsive-table td {
+    @apply block text-right;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    @apply float-left font-semibold;
+  }
+}
