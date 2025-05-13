@@ -23,7 +23,7 @@ const recipes: Recipe[] = [
   {
     id: 1,
     name: 'Veggie Stir Fry',
-    image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.09e449ab013aa72a500c9a7bcf59fdb4?w=100&h=140&rs=2&qlt=100&r=0&o=6&cdv=1&dpr=7&pid=16.',
     description: 'Colorful stir-fried vegetables in a savory sauce',
     prepTime: '10 mins',
     cookTime: '15 mins',
@@ -53,7 +53,7 @@ const recipes: Recipe[] = [
   {
     id: 2,
     name: 'Caprese Salad',
-    image: 'https://images.unsplash.com/photo-1604908812762-7b0eb6ae227d?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.9e74da41f147f35c75d95e04a73e73a2?w=186&h=124&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Simple and fresh Italian salad with tomatoes and mozzarella',
     prepTime: '10 mins',
     cookTime: '0 mins',
@@ -80,7 +80,7 @@ const recipes: Recipe[] = [
   {
     id: 3,
     name: 'Vegetable Biryani',
-    image: 'https://images.unsplash.com/photo-1613141411209-9b95a1c58c0e?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.cc22dda3074a9ba81a7777a03e6c0496?w=186&h=186&rs=2&qlt=80&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Spiced rice dish packed with vegetables',
     prepTime: '20 mins',
     cookTime: '30 mins',
@@ -110,7 +110,7 @@ const recipes: Recipe[] = [
   {
     id: 4,
     name: 'Paneer Tikka',
-    image: 'https://images.unsplash.com/photo-1603899121173-82df4ba1b1d4?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.44763b52e5a78caef934be63feafc464?w=186&h=104&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Grilled paneer cubes marinated in spices',
     prepTime: '15 mins',
     cookTime: '15 mins',
@@ -139,7 +139,7 @@ const recipes: Recipe[] = [
   {
     id: 5,
     name: 'Spinach Lasagna',
-    image: 'https://images.unsplash.com/photo-1618213597396-e4d6dc867bc0?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.7b98bf4911981fbf394d20161a41bf24?w=186&h=186&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Cheesy vegetarian lasagna with spinach',
     prepTime: '20 mins',
     cookTime: '40 mins',
@@ -168,7 +168,7 @@ const recipes: Recipe[] = [
   {
     id: 6,
     name: 'Vegetarian Omelette',
-    image: 'https://images.unsplash.com/photo-1606756796621-709b3d92d1fb?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.9a6521edafaf644b219f7574a2dec51f?w=186&h=279&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Egg-free chickpea flour omelette with veggies',
     prepTime: '10 mins',
     cookTime: '10 mins',
@@ -197,7 +197,7 @@ const recipes: Recipe[] = [
   {
     id: 7,
     name: 'Avocado Toast',
-    image: 'https://images.unsplash.com/photo-1572441710534-3879d3dc1d90?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.ce2c434521532aca81b32a90bd00ea85?w=186&h=169&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Crispy toast topped with creamy avocado and spices',
     prepTime: '5 mins',
     cookTime: '5 mins',
@@ -223,7 +223,7 @@ const recipes: Recipe[] = [
   {
     id: 8,
     name: 'Banana Oat Pancakes',
-    image: 'https://images.unsplash.com/photo-1587731047594-4b4e1ed60c3f?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.9a6b80a98201a35b032666014b646df4?w=186&h=124&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Healthy pancakes made with bananas and oats',
     prepTime: '10 mins',
     cookTime: '15 mins',
@@ -249,7 +249,7 @@ const recipes: Recipe[] = [
   {
     id: 9,
     name: 'Poha',
-    image: 'https://images.unsplash.com/photo-1650984735444-02ea1cf6a7c7?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OIP.ihzgnMqRMLgOIEUoVPZXLwHaHa?w=298&h=298&c=10&rs=1&bgcl=fffffe&r=0&o=6&dpr=7&pid=23.1',
     description: 'Flattened rice cooked with onions, peas, and spices',
     prepTime: '10 mins',
     cookTime: '10 mins',
@@ -279,7 +279,7 @@ const recipes: Recipe[] = [
   {
     id: 10,
     name: 'Masala Idli',
-    image: 'https://images.unsplash.com/photo-1632545544029-69701e2fdd9c?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.8651ab189f20abb43bc27a7f32f29bf7?w=186&h=186&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Fried idli cubes tossed with spices and vegetables',
     prepTime: '5 mins',
     cookTime: '10 mins',
@@ -309,7 +309,7 @@ const recipes: Recipe[] = [
   {
     id: 11,
     name: 'Muesli with Yogurt',
-    image: 'https://images.unsplash.com/photo-1505253210343-1bb07f1eae36?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.HEROC_5Ng8eD0365ynLfczjp_nbmrlYMJSIiJM9PlSpghXE?w=312&h=200&c=7&rs=1&r=0&o=6&dpr=7&pid=SANGAM',
     description: 'A crunchy and creamy blend of oats, nuts, fruits, and yogurt',
     prepTime: '5 mins',
     cookTime: '0 mins',
@@ -334,7 +334,7 @@ const recipes: Recipe[] = [
   {
     id: 12,
     name: 'Greek Salad',
-    image: 'https://images.unsplash.com/photo-1576402187875-4f5cba882df4?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.2f97d28d01ba4c0fb6d95aacab77faac?w=167&h=93&rs=2&qlt=80&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Crisp veggies, olives, and feta tossed in a lemon vinaigrette',
     prepTime: '10 mins',
     cookTime: '0 mins',
@@ -363,7 +363,7 @@ const recipes: Recipe[] = [
   {
     id: 13,
     name: 'Chickpea Salad',
-    image: 'https://images.unsplash.com/photo-1572449043417-55f4685c9bb2?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.629421f5aa10c59a7e5a6dc3a0dd6a08?w=167&h=83&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Protein-rich salad with chickpeas, tomatoes, and herbs',
     prepTime: '10 mins',
     cookTime: '0 mins',
@@ -389,7 +389,7 @@ const recipes: Recipe[] = [
   {
     id: 14,
     name: 'Quinoa & Avocado Salad',
-    image: 'https://images.unsplash.com/photo-1556911073-52527ac437f5?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.4b03c32b89b8763f61dfe80de599bc86?w=167&h=87&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Fresh and filling salad with quinoa, avocado, and veggies',
     prepTime: '15 mins',
     cookTime: '15 mins',
@@ -416,7 +416,7 @@ const recipes: Recipe[] = [
   {
     id: 15,
     name: 'Cucumber Yogurt Salad',
-    image: 'https://images.unsplash.com/photo-1618591209139-2d5b2b184eb6?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.b1d1a650f11e803a9153756429978f1a?w=167&h=83&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Cool and creamy salad perfect for summer',
     prepTime: '5 mins',
     cookTime: '0 mins',
@@ -440,7 +440,7 @@ const recipes: Recipe[] = [
   {
     id: 16,
     name: 'Beetroot Apple Salad',
-    image: 'https://images.unsplash.com/photo-1629196914022-9c8c0c5c94d3?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.83beb74f944e799f5cc8f76ae74d1125?w=167&h=93&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Sweet and tangy salad with beets and apples',
     prepTime: '10 mins',
     cookTime: '0 mins',
@@ -462,7 +462,7 @@ const recipes: Recipe[] = [
   }, {
     id: 17,
     name: 'Buddha Bowl',
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.HEROwukyWQQSVlNcbQipMIfcFTpVfa67cJylSmZEEP5Iy08?w=296&h=176&c=1&rs=2&r=0&o=6&dpr=7&pid=SANGAM',
     description: 'Colorful bowl with grains, veggies, and tahini dressing',
     prepTime: '15 mins',
     cookTime: '20 mins',
@@ -490,7 +490,7 @@ const recipes: Recipe[] = [
   {
     id: 18,
     name: 'Mexican Burrito Bowl',
-    image: 'https://images.unsplash.com/photo-1604908554163-e6deb8823c23?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.3ede7a743b4ef7b1ba47de49000539dc?w=167&h=83&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Southwest-style bowl with rice, beans, corn, and salsa',
     prepTime: '10 mins',
     cookTime: '15 mins',
@@ -517,7 +517,7 @@ const recipes: Recipe[] = [
   {
     id: 19,
     name: 'Mediterranean Bowl',
-    image: 'https://images.unsplash.com/photo-1589927986089-35812388d1a2?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.0337fbc18c67b991e7984b833dde9cf2?w=167&h=87&rs=2&qlt=80&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'A mix of couscous, veggies, olives, and hummus',
     prepTime: '15 mins',
     cookTime: '10 mins',
@@ -544,7 +544,7 @@ const recipes: Recipe[] = [
   {
     id: 20,
     name: 'Peanut Tofu Rice Bowl',
-    image: 'https://images.unsplash.com/photo-1584270354949-6d9e5e4c4df2?auto=format&fit=crop&w=500&q=80',
+    image: 'https://th.bing.com/th/id/OSK.c7b872f8b220af0a301a0cbe0c685ac8?w=167&h=144&rs=2&qlt=80&r=0&o=6&cdv=1&dpr=7&pid=16.1',
     description: 'Protein-packed tofu bowl with creamy peanut sauce',
     prepTime: '15 mins',
     cookTime: '15 mins',
